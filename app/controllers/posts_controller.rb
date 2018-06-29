@@ -24,7 +24,7 @@ class PostsController < ApplicationController
        # If the post is invalid, hold on to @post, because it is now full of
        # useful error messages, and re-render the :new page, which knows how
        # to display them alongside the user's entries.
-       render :show
+       render :edit
      end
   end
 
